@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawer_menu_main_rules"
+        android:icon="@drawable/ic_baseline_rule_24"
+        android:title="@string/fragment_label_rules" />
+    <item
+        android:id="@+id/drawer_menu_main_quiz"
+        android:icon="@drawable/ic_baseline_format_list_numbered_24"
+        android:title="@string/drawer_menu_main_label_quiz" />
+    <item
+        android:id="@+id/drawer_menu_main_results"
+        android:icon="@drawable/ic_baseline_done_24"
+        android:title="@string/fragment_label_results" />
+    <item
+        android:id="@+id/drawer_menu_main_manage_user"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/fragment_label_manage_user" />
+    <item
+        android:id="@+id/drawer_menu_main_log_out"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:title="@string/drawer_menu_main_label_log_out" />
+</menu>

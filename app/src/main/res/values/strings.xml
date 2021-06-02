@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Quiz Game</string>
+
+    <string name="activity_label_login">Login</string>
+    <string name="activity_label_register">Register</string>
+    <string name="fragment_label_rules">Rules</string>
+    <string name="fragment_label_question">Question %1$s of %2$s</string>
+    <string name="fragment_label_results">Results</string>
+    <string name="fragment_label_manage_user">Manage User</string>
+
+    <string name="drawer_menu_main_label_quiz">Quiz</string>
+    <string name="drawer_menu_main_label_log_out">Log Out</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_first_name">First name</string>
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_date_of_birth">Date of birth</string>
+    <string name="hint_confirm_password">Confirm password</string>
+
+    <string name="button_login">Login</string>
+    <string name="button_register">Register</string>
+    <string name="button_next">Next</string>
+
+    <string name="text_view_rules_title">Welcome to Quiz Game!</string>
+    <string name="text_view_rules_description">
+        \nThis quiz consists of questions carefully designed to access your comprehension of Android fragments. Each question is of format multiple-choice or format multiple-answer. Read each question carefully and select the response or responses that best answers the question. After responding to each question, click on the \"Next\" button. Once the quiz is completed, you will be able to view your results and the results of other past attempts.\n\nTo begin the quiz, go to the navigation drawer and press \"Quiz\".
+    </string>
+    <string name="text_view_recycler_view_results_empty">No Results</string>
+    <string name="text_view_user_unknown">Unknown User</string>
+
+    <string name="toast_success_user_created">User created successfully!</string>
+
+    <string name="toast_error_field_empty">Cannot be empty!</string>
+    <string name="toast_error_login_invalid">Invalid email or password!</string>
+    <string name="toast_error_name_field_invalid">Must have between 3 and 30 characters!</string>
+    <string name="toast_error_email_field_invalid">Must have valid email address!</string>
+    <string name="toast_error_email_field_taken">Email address taken!</string>
+    <string name="toast_error_password_field_invalid">Must have between 8 and 30 characters!</string>
+    <string name="toast_error_confirm_password_field_invalid">Password and confirm password must be equal!</string>
+    <string name="toast_error_answer_selection_empty">Must select an answer!</string>
+
+    <string name="format_full_name">%1$s %2$s</string>
+    <string name="format_result">%1$d/%2$d</string>
+    <string name="format_result_details">By %1$s at %2$s on %3$s</string>
+
+    <string name="drawer_menu_main_open">Drawer is open</string>
+    <string name="drawer_menu_main_closed">Drawer is closed</string>
+
+    <string name="dialog_confirm_positive_button">Yes</string>
+    <string name="dialog_confirm_negative_button">No</string>
+    <string name="dialog_confirm_answer_title">Confirm Answer</string>
+    <string name="dialog_confirm_answer_message">Are you sure you want to continue?</string>
+    <string name="dialog_confirm_delete_results_message">Are you sure you want to delete all quiz results related to this user account? These cannot be recovered after deletion.</string>
+    <string name="dialog_confirm_delete_user_message">Are you sure you want to delete this user account and all related quiz results? These cannot be recovered after deletion.</string>
+
+    <string name="preference_delete_results_title">Delete Results</string>
+    <string name="preference_delete_results_summary">Deletes all quiz results related to this user account</string>
+    <string name="preference_delete_user_title">Delete User</string>
+    <string name="preference_delete_user_summary">Deletes this user account and all related quiz results</string>
+
+</resources>
